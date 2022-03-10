@@ -1,0 +1,361 @@
+2022-01-31T22:32:13.647143Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2022-01-31T22:32:13.647245Z 0 [Warning] 'NO_ZERO_DATE', 'NO_ZERO_IN_DATE' and 'ERROR_FOR_DIVISION_BY_ZERO' sql modes should be used with strict mode. They will be merged with strict mode in a future release.
+2022-01-31T22:32:13.652302Z 0 [Note] C:\Program Files\MySQL\MySQL Server 5.7\bin\mysqld.exe (mysqld 5.7.37-log) starting as process 13344 ...
+2022-01-31T22:32:13.673059Z 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2022-01-31T22:32:13.675229Z 0 [Note] InnoDB: Uses event mutexes
+2022-01-31T22:32:13.675952Z 0 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2022-01-31T22:32:13.677155Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2022-01-31T22:32:13.677993Z 0 [Note] InnoDB: Adjusting innodb_buffer_pool_instances from 8 to 1 since innodb_buffer_pool_size is less than 1024 MiB
+2022-01-31T22:32:13.679951Z 0 [Note] InnoDB: Number of pools: 1
+2022-01-31T22:32:13.680916Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2022-01-31T22:32:13.689126Z 0 [Note] InnoDB: Initializing buffer pool, total size = 8M, instances = 1, chunk size = 8M
+2022-01-31T22:32:13.691841Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2022-01-31T22:32:13.726525Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2022-01-31T22:32:13.912134Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2022-01-31T22:32:13.914393Z 0 [Note] InnoDB: Setting file '.\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2022-01-31T22:32:14.040246Z 0 [Note] InnoDB: File '.\ibtmp1' size is now 12 MB.
+2022-01-31T22:32:14.054317Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2022-01-31T22:32:14.055588Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2022-01-31T22:32:14.057413Z 0 [Note] InnoDB: Waiting for purge to start
+2022-01-31T22:32:14.112784Z 0 [Note] InnoDB: 5.7.37 started; log sequence number 2750213
+2022-01-31T22:32:14.114603Z 0 [Note] InnoDB: Loading buffer pool(s) from C:\ProgramData\MySQL\MySQL Server 5.7\Data\ib_buffer_pool
+2022-01-31T22:32:14.114719Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2022-01-31T22:32:14.154927Z 0 [Note] Found ca.pem, server-cert.pem and server-key.pem in data directory. Trying to enable SSL support using them.
+2022-01-31T22:32:14.156434Z 0 [Note] Skipping generation of SSL certificates as certificate files are present in data directory.
+2022-01-31T22:32:14.157840Z 0 [Warning] A deprecated TLS version TLSv1 is enabled. Please use TLSv1.2 or higher.
+2022-01-31T22:32:14.159088Z 0 [Warning] A deprecated TLS version TLSv1.1 is enabled. Please use TLSv1.2 or higher.
+2022-01-31T22:32:14.162707Z 0 [Warning] CA certificate ca.pem is self signed.
+2022-01-31T22:32:14.163896Z 0 [Note] Skipping generation of RSA key pair as key files are present in data directory.
+2022-01-31T22:32:14.169818Z 0 [Note] Server hostname (bind-address): '*'; port: 3306
+2022-01-31T22:32:14.170731Z 0 [Note] InnoDB: Buffer pool(s) load completed at 220131 19:32:14
+2022-01-31T22:32:14.171113Z 0 [Note] IPv6 is available.
+2022-01-31T22:32:14.172832Z 0 [Note]   - '::' resolves to '::';
+2022-01-31T22:32:14.173637Z 0 [Note] Server socket created on IP: '::'.
+2022-01-31T22:32:14.259945Z 0 [Note] Failed to start slave threads for channel ''
+2022-01-31T22:32:14.293913Z 0 [Note] Event Scheduler: Loaded 0 events
+2022-01-31T22:32:14.295008Z 0 [Note] C:\Program Files\MySQL\MySQL Server 5.7\bin\mysqld.exe: ready for connections.
+Version: '5.7.37-log'  socket: ''  port: 3306  MySQL Community Server (GPL)
+2022-01-31T22:32:15.528331Z 4 [Note] Access denied for user 'root'@'localhost' (using password: NO)
+2022-02-01T03:01:53.942958Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 3806760ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-02-02T14:29:53.915298Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 122995590ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-02-02T14:55:48.226294Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2022-02-02T14:55:48.245424Z 0 [Warning] 'NO_ZERO_DATE', 'NO_ZERO_IN_DATE' and 'ERROR_FOR_DIVISION_BY_ZERO' sql modes should be used with strict mode. They will be merged with strict mode in a future release.
+2022-02-02T14:55:48.262832Z 0 [Note] C:\Program Files\MySQL\MySQL Server 5.7\bin\mysqld.exe (mysqld 5.7.37-log) starting as process 4064 ...
+2022-02-02T14:55:48.647778Z 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2022-02-02T14:55:48.648965Z 0 [Note] InnoDB: Uses event mutexes
+2022-02-02T14:55:48.650011Z 0 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2022-02-02T14:55:48.651683Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2022-02-02T14:55:48.652998Z 0 [Note] InnoDB: Adjusting innodb_buffer_pool_instances from 8 to 1 since innodb_buffer_pool_size is less than 1024 MiB
+2022-02-02T14:55:48.722887Z 0 [Note] InnoDB: Number of pools: 1
+2022-02-02T14:55:48.744785Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2022-02-02T14:55:48.767039Z 0 [Note] InnoDB: Initializing buffer pool, total size = 8M, instances = 1, chunk size = 8M
+2022-02-02T14:55:48.816032Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2022-02-02T14:55:48.937951Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2022-02-02T14:55:48.964944Z 0 [Note] InnoDB: Log scan progressed past the checkpoint lsn 2750232
+2022-02-02T14:55:48.966438Z 0 [Note] InnoDB: Doing recovery: scanned up to log sequence number 2750241
+2022-02-02T14:55:49.023248Z 0 [Note] InnoDB: Database was not shutdown normally!
+2022-02-02T14:55:49.024460Z 0 [Note] InnoDB: Starting crash recovery.
+2022-02-02T14:55:49.897294Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2022-02-02T14:55:49.898467Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2022-02-02T14:55:49.900149Z 0 [Note] InnoDB: Setting file '.\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2022-02-02T14:55:50.221543Z 0 [Note] InnoDB: File '.\ibtmp1' size is now 12 MB.
+2022-02-02T14:55:50.227883Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2022-02-02T14:55:50.229193Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2022-02-02T14:55:50.230623Z 0 [Note] InnoDB: Waiting for purge to start
+2022-02-02T14:55:50.290225Z 0 [Note] InnoDB: 5.7.37 started; log sequence number 2750241
+2022-02-02T14:55:50.296449Z 0 [Note] InnoDB: Loading buffer pool(s) from C:\ProgramData\MySQL\MySQL Server 5.7\Data\ib_buffer_pool
+2022-02-02T14:55:50.312058Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2022-02-02T14:55:50.449048Z 0 [Note] InnoDB: Buffer pool(s) load completed at 220202 11:55:50
+2022-02-02T14:55:50.575143Z 0 [Note] Found ca.pem, server-cert.pem and server-key.pem in data directory. Trying to enable SSL support using them.
+2022-02-02T14:55:50.576596Z 0 [Note] Skipping generation of SSL certificates as certificate files are present in data directory.
+2022-02-02T14:55:50.579601Z 0 [Warning] A deprecated TLS version TLSv1 is enabled. Please use TLSv1.2 or higher.
+2022-02-02T14:55:50.580707Z 0 [Warning] A deprecated TLS version TLSv1.1 is enabled. Please use TLSv1.2 or higher.
+2022-02-02T14:55:50.691735Z 0 [Warning] CA certificate ca.pem is self signed.
+2022-02-02T14:55:50.695309Z 0 [Note] Skipping generation of RSA key pair as key files are present in data directory.
+2022-02-02T14:55:50.699507Z 0 [Note] Server hostname (bind-address): '*'; port: 3306
+2022-02-02T14:55:50.701256Z 0 [Note] IPv6 is available.
+2022-02-02T14:55:50.702822Z 0 [Note]   - '::' resolves to '::';
+2022-02-02T14:55:50.704527Z 0 [Note] Server socket created on IP: '::'.
+2022-02-02T14:55:51.029451Z 0 [Note] Failed to start slave threads for channel ''
+2022-02-02T14:55:51.451686Z 0 [Note] Event Scheduler: Loaded 0 events
+2022-02-02T14:55:51.453665Z 0 [Note] C:\Program Files\MySQL\MySQL Server 5.7\bin\mysqld.exe: ready for connections.
+Version: '5.7.37-log'  socket: ''  port: 3306  MySQL Community Server (GPL)
+2022-02-02T18:17:30.824935Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 3681202ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-02-02T21:18:03.203710Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 10800769ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-02-03T02:45:38.997691Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 19649694ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-02-03T07:07:40.941696Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 10800814ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-02-03T15:18:20.283542Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 29434988ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-02-03T18:22:36.495245Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 10800908ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-02-04T02:15:59.297528Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 28395336ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-02-04T07:11:11.681133Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 10801200ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-02-04T18:09:40.217798Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 39498740ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-02-04T20:10:45.364610Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 5519185ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-02-05T02:34:38.832512Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 10800706ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-02-06T21:20:42.158701Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 153957878ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-02-07T00:26:40.981393Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 10800659ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-02-07T12:33:05.926967Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 43582783ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-02-07T14:53:21.096291Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 1421822ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-02-07T18:02:51.795295Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 10800803ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-02-07T18:09:57.212577Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 415371ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-02-08T00:06:10.926513Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 10800925ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-02-08T13:58:31.876745Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 49930055ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-02-08T17:45:49.913304Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 10801141ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-02-08T17:57:04.996736Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 670923ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-02-08T21:52:02.801019Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 10800388ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-02-09T12:03:05.085988Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 51055024ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-02-09T17:59:23.900375Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 10801228ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-02-09T20:59:32.875903Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 10801316ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-02-09T23:59:36.106800Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 10800960ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-02-10T12:02:24.164255Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 43363900ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-02-10T16:01:04.805535Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 10801057ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-02-10T16:19:39.255136Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 1105533ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-02-10T19:38:00.582273Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 10801845ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-02-11T15:48:02.988537Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 72592849ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-02-11T16:17:54.465793Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 874381ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-02-11T17:23:32.946073Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 3937404ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-02-11T20:24:30.749723Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 9780012ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-02-11T20:31:26.312624Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 411289ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-02-11T21:50:30.538063Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 3521357ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-02-11T22:20:31.002932Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 651208ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-02-11T23:38:53.717515Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 4701636ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-02-12T00:07:30.691384Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 488973ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-02-12T02:46:13.970156Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 471085ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-02-12T03:10:29.868917Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 226948ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-02-12T06:10:30.842436Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 10799904ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-02-14T12:14:16.086904Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 194621868ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-02-14T12:44:01.908617Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 863506ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-02-14T14:25:07.785125Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 6064803ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-02-14T16:11:57.416025Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 6342641ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-02-14T20:28:29.943031Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 9331356ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-02-14T23:28:35.966248Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 10800670ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-02-15T14:34:05.877103Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 54325827ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-02-15T17:47:53.918576Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 3206329ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-02-15T18:03:27.867062Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 920893ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-02-15T20:25:30.058942Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 5478551ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-02-15T20:42:28.783415Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 89862ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-02-15T20:43:41.281320Z 0 [Note] C:\Program Files\MySQL\MySQL Server 5.7\bin\mysqld.exe: Normal shutdown
+
+2022-02-15T20:43:41.340379Z 0 [Note] Giving 0 client threads a chance to die gracefully
+2022-02-15T20:43:41.346867Z 0 [Note] Shutting down slave threads
+2022-02-15T20:43:41.361990Z 0 [Note] Forcefully disconnecting 0 remaining clients
+2022-02-15T20:43:41.375134Z 0 [Note] Event Scheduler: Purging the queue. 0 events
+2022-02-15T20:43:41.468769Z 0 [Note] Binlog end
+2022-02-15T20:43:41.543546Z 0 [Note] Shutting down plugin 'ngram'
+2022-02-15T20:43:41.546645Z 0 [Note] Shutting down plugin 'partition'
+2022-02-15T20:43:41.547250Z 0 [Note] Shutting down plugin 'BLACKHOLE'
+2022-02-15T20:43:41.549191Z 0 [Note] Shutting down plugin 'ARCHIVE'
+2022-02-15T20:43:41.549790Z 0 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2022-02-15T20:43:41.550510Z 0 [Note] Shutting down plugin 'MRG_MYISAM'
+2022-02-15T20:43:41.552605Z 0 [Note] Shutting down plugin 'MyISAM'
+2022-02-15T20:43:41.555468Z 0 [Note] Shutting down plugin 'INNODB_SYS_VIRTUAL'
+2022-02-15T20:43:41.559437Z 0 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2022-02-15T20:43:41.560178Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2022-02-15T20:43:41.560828Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2022-02-15T20:43:41.561501Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2022-02-15T20:43:41.562132Z 0 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2022-02-15T20:43:41.562835Z 0 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2022-02-15T20:43:41.563451Z 0 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2022-02-15T20:43:41.564104Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2022-02-15T20:43:41.564781Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2022-02-15T20:43:41.565415Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2022-02-15T20:43:41.566076Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2022-02-15T20:43:41.566791Z 0 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2022-02-15T20:43:41.567422Z 0 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2022-02-15T20:43:41.568091Z 0 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2022-02-15T20:43:41.568697Z 0 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2022-02-15T20:43:41.569395Z 0 [Note] Shutting down plugin 'INNODB_METRICS'
+2022-02-15T20:43:41.611230Z 0 [Note] Shutting down plugin 'INNODB_TEMP_TABLE_INFO'
+2022-02-15T20:43:41.613715Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2022-02-15T20:43:41.614994Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2022-02-15T20:43:41.616296Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2022-02-15T20:43:41.617037Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2022-02-15T20:43:41.617864Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2022-02-15T20:43:41.618502Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2022-02-15T20:43:41.619131Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2022-02-15T20:43:41.619717Z 0 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2022-02-15T20:43:41.620318Z 0 [Note] Shutting down plugin 'INNODB_CMP'
+2022-02-15T20:43:41.620875Z 0 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2022-02-15T20:43:41.621484Z 0 [Note] Shutting down plugin 'INNODB_LOCKS'
+2022-02-15T20:43:41.622063Z 0 [Note] Shutting down plugin 'INNODB_TRX'
+2022-02-15T20:43:41.622618Z 0 [Note] Shutting down plugin 'InnoDB'
+2022-02-15T20:43:41.641810Z 0 [Note] InnoDB: FTS optimize thread exiting.
+2022-02-15T20:43:41.643373Z 0 [Note] InnoDB: Starting shutdown...
+2022-02-15T20:43:41.815254Z 0 [Note] InnoDB: Dumping buffer pool(s) to C:\ProgramData\MySQL\MySQL Server 5.7\Data\ib_buffer_pool
+2022-02-15T20:43:41.821006Z 0 [Note] InnoDB: Buffer pool(s) dump completed at 220215 17:43:41
+2022-02-15T20:43:42.607921Z 0 [Note] InnoDB: Shutdown completed; log sequence number 2750269
+2022-02-15T20:43:42.612141Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2022-02-15T20:43:42.612983Z 0 [Note] Shutting down plugin 'MEMORY'
+2022-02-15T20:43:42.614993Z 0 [Note] Shutting down plugin 'CSV'
+2022-02-15T20:43:42.615583Z 0 [Note] Shutting down plugin 'sha256_password'
+2022-02-15T20:43:42.616202Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2022-02-15T20:43:42.617270Z 0 [Note] Shutting down plugin 'binlog'
+2022-02-15T20:43:42.677752Z 0 [Note] C:\Program Files\MySQL\MySQL Server 5.7\bin\mysqld.exe: Shutdown complete
+
+2022-02-15T20:44:37.715266Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2022-02-15T20:44:37.739184Z 0 [Warning] 'NO_ZERO_DATE', 'NO_ZERO_IN_DATE' and 'ERROR_FOR_DIVISION_BY_ZERO' sql modes should be used with strict mode. They will be merged with strict mode in a future release.
+2022-02-15T20:44:37.768109Z 0 [Note] C:\Program Files\MySQL\MySQL Server 5.7\bin\mysqld.exe (mysqld 5.7.37-log) starting as process 3908 ...
+2022-02-15T20:44:37.997995Z 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2022-02-15T20:44:37.999696Z 0 [Note] InnoDB: Uses event mutexes
+2022-02-15T20:44:38.001062Z 0 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2022-02-15T20:44:38.004873Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2022-02-15T20:44:38.007373Z 0 [Note] InnoDB: Adjusting innodb_buffer_pool_instances from 8 to 1 since innodb_buffer_pool_size is less than 1024 MiB
+2022-02-15T20:44:38.031709Z 0 [Note] InnoDB: Number of pools: 1
+2022-02-15T20:44:38.048585Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2022-02-15T20:44:38.093032Z 0 [Note] InnoDB: Initializing buffer pool, total size = 8M, instances = 1, chunk size = 8M
+2022-02-15T20:44:38.099910Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2022-02-15T20:44:38.275505Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2022-02-15T20:44:39.028180Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2022-02-15T20:44:39.030462Z 0 [Note] InnoDB: Setting file '.\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2022-02-15T20:44:39.502893Z 0 [Note] InnoDB: File '.\ibtmp1' size is now 12 MB.
+2022-02-15T20:44:39.507323Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2022-02-15T20:44:39.512455Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2022-02-15T20:44:39.514015Z 0 [Note] InnoDB: Waiting for purge to start
+2022-02-15T20:44:39.591474Z 0 [Note] InnoDB: 5.7.37 started; log sequence number 2750269
+2022-02-15T20:44:39.605849Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2022-02-15T20:44:39.611591Z 0 [Note] InnoDB: Loading buffer pool(s) from C:\ProgramData\MySQL\MySQL Server 5.7\Data\ib_buffer_pool
+2022-02-15T20:44:39.860938Z 0 [Note] InnoDB: Buffer pool(s) load completed at 220215 17:44:39
+2022-02-15T20:44:39.886981Z 0 [Note] Found ca.pem, server-cert.pem and server-key.pem in data directory. Trying to enable SSL support using them.
+2022-02-15T20:44:39.888646Z 0 [Note] Skipping generation of SSL certificates as certificate files are present in data directory.
+2022-02-15T20:44:39.890689Z 0 [Warning] A deprecated TLS version TLSv1 is enabled. Please use TLSv1.2 or higher.
+2022-02-15T20:44:39.892082Z 0 [Warning] A deprecated TLS version TLSv1.1 is enabled. Please use TLSv1.2 or higher.
+2022-02-15T20:44:39.932369Z 0 [Warning] CA certificate ca.pem is self signed.
+2022-02-15T20:44:39.935264Z 0 [Note] Skipping generation of RSA key pair as key files are present in data directory.
+2022-02-15T20:44:39.937626Z 0 [Note] Server hostname (bind-address): '*'; port: 3306
+2022-02-15T20:44:39.938877Z 0 [Note] IPv6 is available.
+2022-02-15T20:44:39.939533Z 0 [Note]   - '::' resolves to '::';
+2022-02-15T20:44:39.940364Z 0 [Note] Server socket created on IP: '::'.
+2022-02-15T20:44:40.079871Z 0 [Note] Failed to start slave threads for channel ''
+2022-02-15T20:44:40.412637Z 0 [Note] Event Scheduler: Loaded 0 events
+2022-02-15T20:44:40.413706Z 0 [Note] C:\Program Files\MySQL\MySQL Server 5.7\bin\mysqld.exe: ready for connections.
+Version: '5.7.37-log'  socket: ''  port: 3306  MySQL Community Server (GPL)
+2022-02-16T00:06:25.561677Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 6845353ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-02-16T03:26:56.397179Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 10801161ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-02-16T13:53:02.876965Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 37565447ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-02-16T17:14:31.568527Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 10801217ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-02-16T19:16:59.923817Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 7341220ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-02-16T19:18:11.702038Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 6539ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-02-16T20:40:14.118843Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 3709617ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-02-16T22:49:57.129052Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 6554168ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-02-17T02:33:26.909475Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 10800978ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-02-17T13:17:18.401090Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 38628387ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-02-17T14:50:50.090489Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 1805352ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-02-17T21:37:27.305975Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 8153ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-02-18T01:12:55.044825Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 10800228ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-02-18T12:44:42.107146Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 41498364ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-02-18T14:33:10.057103Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 937903ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-02-18T15:35:03.190372Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 1554059ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-02-18T18:57:54.581312Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 6313ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-02-18T20:36:03.623991Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 2337684ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-02-19T00:13:34.025050Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 10801013ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-02-21T12:57:14.215351Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 218615694ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-02-21T16:30:49.581217Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 3611037ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-02-21T19:59:33.342805Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 1694032ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-02-21T20:54:17.151745Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 1156545ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-02-21T23:54:26.631076Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 10800970ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-02-22T12:08:23.102371Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 44032321ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-02-22T14:06:32.271044Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 6175542ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-02-22T14:10:18.994745Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 108324ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-02-22T15:54:31.867138Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 2691124ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-02-22T19:29:44.973444Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 10800821ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-02-24T12:52:37.952094Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 148967776ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-02-24T15:10:31.794180Z 2 [Note] Aborted connection 2 to db: 'unconnected' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2022-02-24T16:33:41.312060Z 3 [Note] Access denied for user 'root'@'localhost' (using password: NO)
+2022-02-24T16:33:44.318339Z 4 [Note] Access denied for user 'root'@'localhost' (using password: YES)
+2022-02-24T16:33:47.951504Z 5 [Note] Access denied for user 'root'@'localhost' (using password: NO)
+2022-02-24T17:47:33.158953Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 1700910ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-02-24T21:23:29.751146Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 10800899ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-02-25T18:34:15.991640Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 76237561ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-02-25T20:09:52.878598Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 4817828ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-02-25T21:36:48.317742Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 1900758ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-02-26T00:38:52.517775Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 10801076ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-02-28T13:47:48.670963Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 220128620ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-02-28T20:53:32.021653Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 8027985ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-03-01T03:24:37.021911Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 10801234ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-03-01T14:44:24.363612Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 40774293ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-03-01T14:45:49.398249Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 6791ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-03-01T18:06:09.012492Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 10800492ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-03-01T22:18:12.176677Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 15102674ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-03-02T01:14:19.819564Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 10412ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-03-02T04:49:52.624188Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 10800657ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-03-02T12:49:54.188621Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 28793153ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-03-02T14:11:23.197516Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 2589086ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-03-02T16:55:02.102293Z 12 [Note] Access denied for user 'root'@'localhost' (using password: NO)
+2022-03-02T20:13:42.121755Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 1248459ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-03-02T21:10:48.912080Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 8045ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-03-02T22:21:19.041189Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 2103776ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-03-03T01:56:48.614569Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 10801120ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-03-03T13:56:17.082424Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 43159797ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-03-03T14:42:38.460532Z 19 [Note] Aborted connection 19 to db: 'filmedb' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2022-03-03T15:09:18.703656Z 20 [Note] Aborted connection 20 to db: 'filmedb' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2022-03-03T16:50:56.594314Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 78059ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-03-03T18:38:16.082782Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 3201947ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-03-03T18:38:39.734343Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 6458ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-03-03T18:45:35.989995Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 287002ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-03-03T22:02:54.867655Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 2089367ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-03-04T01:48:24.919475Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 10801742ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-03-04T12:59:46.294516Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 40279233ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-03-04T15:38:05.150209Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 2692547ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-03-04T16:13:10.808875Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 549970ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-03-04T16:36:52.943295Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 195044ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-03-04T18:11:48.957157Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 6730ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-03-04T20:13:34.836378Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 397248ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-03-04T21:06:57.720812Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 323312ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-03-04T22:19:59.860946Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 2254165ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-03-05T02:46:59.965829Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 10800772ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-03-07T12:32:20.305562Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 207911798ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-03-07T15:27:21.140821Z 22 [Note] Access denied for user 'root'@'localhost' (using password: YES)
+2022-03-07T15:28:33.553482Z 26 [Note] Access denied for user 'root'@'localhost' (using password: NO)
+2022-03-07T16:54:00.943865Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 1668929ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-03-07T17:03:14.853851Z 29 [Note] Aborted connection 29 to db: 'filmedb' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2022-03-07T17:05:19.099230Z 30 [Note] Aborted connection 30 to db: 'filmedb' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2022-03-07T19:07:38.470772Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 999542ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-03-07T20:28:38.165362Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 2521112ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-03-07T21:11:07.771974Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 1261096ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-03-07T21:28:37.880710Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 133389ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-03-07T22:28:50.855498Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 783306ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-03-07T23:37:42.010336Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 1086051ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-03-08T02:18:17.905936Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 8420807ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-03-08T05:45:17.928069Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 10801060ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-03-08T12:01:51.428370Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 22587951ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-03-08T14:54:34.980307Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 589645ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-03-08T15:59:23.065178Z 32 [Note] Access denied for user 'root'@'localhost' (using password: NO)
+2022-03-08T21:20:46.820622Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 6371829ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-03-08T21:32:39.562267Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 5989ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-03-09T00:53:19.904909Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 10801709ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-03-09T02:37:11.992152Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 6224912ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-03-09T05:52:33.338531Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 10801196ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-03-09T14:14:25.165679Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 30101167ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-03-09T14:27:54.312673Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 779676ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-03-09T14:33:20.284237Z 41 [Note] Aborted connection 41 to db: 'filmedb' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2022-03-09T14:36:00.332564Z 42 [Note] Aborted connection 42 to db: 'filmedb' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2022-03-09T14:51:11.094773Z 44 [Note] Aborted connection 44 to db: 'filmedb' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2022-03-09T14:54:27.250517Z 45 [Note] Aborted connection 45 to db: 'filmedb' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2022-03-09T14:58:42.371064Z 46 [Note] Aborted connection 46 to db: 'filmedb' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2022-03-09T15:05:22.940556Z 47 [Note] Aborted connection 47 to db: 'filmedb' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2022-03-09T15:07:02.654655Z 48 [Note] Access denied for user 'root'@'localhost' (using password: NO)
+2022-03-09T15:13:11.054470Z 51 [Note] Aborted connection 51 to db: 'filmedb' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2022-03-09T15:14:24.626118Z 52 [Note] Aborted connection 52 to db: 'filmedb' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2022-03-09T17:13:15.968945Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 6756795ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-03-09T21:17:51.768454Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 10800674ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-03-10T12:02:41.554119Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 53087560ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-03-10T13:02:24.509884Z 53 [Note] Aborted connection 53 to db: 'filmedb' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2022-03-10T13:07:26.114579Z 54 [Note] Aborted connection 54 to db: 'filmedb' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2022-03-10T13:28:38.900199Z 56 [Note] Aborted connection 56 to db: 'filmedb' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2022-03-10T13:31:28.042824Z 57 [Note] Aborted connection 57 to db: 'filmedb' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2022-03-10T13:37:03.504639Z 58 [Note] Aborted connection 58 to db: 'filmedb' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2022-03-10T13:40:48.903958Z 59 [Note] Aborted connection 59 to db: 'filmedb' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2022-03-10T13:45:47.687882Z 60 [Note] Aborted connection 60 to db: 'filmedb' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2022-03-10T13:50:50.034988Z 61 [Note] Aborted connection 61 to db: 'filmedb' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2022-03-10T13:57:26.003454Z 62 [Note] Aborted connection 62 to db: 'filmedb' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2022-03-10T13:58:44.761779Z 63 [Note] Aborted connection 63 to db: 'filmedb' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2022-03-10T14:02:02.763322Z 64 [Note] Aborted connection 64 to db: 'filmedb' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2022-03-10T14:04:30.948320Z 65 [Note] Aborted connection 65 to db: 'filmedb' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2022-03-10T14:05:35.495641Z 66 [Note] Aborted connection 66 to db: 'filmedb' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2022-03-10T14:09:22.841076Z 67 [Note] Aborted connection 67 to db: 'filmedb' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2022-03-10T16:18:18.520591Z 70 [Note] Access denied for user 'root'@'localhost' (using password: NO)
+2022-03-10T16:19:33.339782Z 71 [Note] Access denied for user 'root'@'localhost' (using password: NO)
+2022-03-10T16:19:42.294772Z 72 [Note] Access denied for user 'root'@'localhost' (using password: YES)
+2022-03-10T16:19:48.831269Z 73 [Note] Access denied for user 'root'@'localhost' (using password: YES)
+2022-03-10T16:19:48.936648Z 74 [Note] Access denied for user 'root'@'localhost' (using password: YES)
+2022-03-10T16:19:51.320063Z 75 [Note] Access denied for user 'root'@'localhost' (using password: YES)
+2022-03-10T16:19:53.840090Z 76 [Note] Access denied for user 'root'@'localhost' (using password: YES)
