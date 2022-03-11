@@ -20,5 +20,7 @@ namespace FilmesApi.Models
         public string Diretor { get; set; }
         public string Genero { get; set; }
         public virtual List<Sessao> Sessoes { get; set; }
+        [Required]
+        public int FaixaEtária { get; set; }
     }
 }

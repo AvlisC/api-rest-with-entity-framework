@@ -76,6 +76,9 @@ namespace FilmesApi.Migrations
                     b.Property<int>("Duracao")
                         .HasColumnType("int");
 
+                    b.Property<int>("FaixaEtária")
+                        .HasColumnType("int");
+
                     b.Property<string>("Genero")
                         .HasColumnType("text");
 

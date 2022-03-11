@@ -29,7 +29,7 @@ namespace FilmesApi.Controllers
             var sessaoMapper = _mapper.Map<Sessao>(createSessao);
             _context.Sessoes.Add(sessaoMapper);
             _context.SaveChanges();
-            return CreatedAtAction(nameof(RecuperaSessoes), new { Id = sessaoMapper.Id }, sessaoMapper));
+            return CreatedAtAction(nameof(RecuperaSessoes), new { Id = sessaoMapper.Id }, sessaoMapper);
             
         }
 
@@ -50,6 +50,19 @@ namespace FilmesApi.Controllers
                 return Ok(sessaoDto);
             }
             return NotFound();
+        }
+
+        [HttpDelete("{id}")]
+        public IActionResult DeletaSessao(int id)
+        {
+            var sessoes = _context.Sessoes.FirstOrDefault(sessao => sessao.Id == id);
+            if(sessoes != null)
+            {
+                return NotFound();
+            }
+            _context.Sessoes.Remove(sessoes);
+            _context.SaveChanges();
+            return NoContent();
         }
     }
 }
