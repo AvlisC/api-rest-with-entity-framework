@@ -34,9 +34,9 @@ namespace FilmesApi.Controllers
         }
 
         [HttpGet("RecuperaTodasSessoes")]
-        public IEnumerable<Sessao> RecuperaSessoes()
+        public IActionResult RecuperaSessoes()
         {
-            return _context.Sessoes;
+            return Ok(_context.Sessoes);
         }
 
         [HttpGet("{id}")]
@@ -66,3 +66,4 @@ namespace FilmesApi.Controllers
         }
     }
 }
+

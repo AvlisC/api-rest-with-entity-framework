@@ -19,6 +19,7 @@ namespace FilmesApi.Models
         public int EnderecoId { get; set; }//FK
         public virtual Gerente Gerente { get; set; }
         public int GerenteId { get; set; }//FK
+        [JsonIgnore]
         public virtual List<Sessao> Sessoes { get; set; }
 
     }
