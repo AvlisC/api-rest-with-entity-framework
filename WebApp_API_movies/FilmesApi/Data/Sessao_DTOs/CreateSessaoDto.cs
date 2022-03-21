@@ -9,10 +9,8 @@ namespace FilmesApi.Data.Sessao_DTOs
 {
     public class CreateSessaoDto
     {
-        [Required]
         public int CinemaId { get; set; }
-        [Required]
         public int FilmeId { get; set; }
-        public DateTime HorarioDeEncerramento { get; set; }
+        public DateTime HoraEncerramento { get; set; }
     }
 }

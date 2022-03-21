@@ -15,7 +15,7 @@ namespace FilmesApi.Models
         public virtual Cinema Cinema { get; set; }
         public int FilmeId { get; set; }
         public virtual Filme Filme { get; set; }
-        public DateTime HoraEncerramento { get; set; }
+        public DateTime HoraEncerramento { get; set; } //"2002-01-01T21:00:00Z" < input DateTime
 
 
     }
