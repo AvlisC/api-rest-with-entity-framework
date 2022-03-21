@@ -23,6 +23,6 @@ namespace FilmesApi.Models
         [JsonIgnore]
         public virtual List<Sessao> Sessoes { get; set; }
         [Required]
-        public int FaixaEtária { get; set; }
+        public int FaixaEtaria { get; set; }
     }
 }
