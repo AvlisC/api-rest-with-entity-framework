@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using FilmesApi.Data;
 using FilmesApi.Models;
+using FilmesApi.Services;
 using FilmesAPI.Data;
 using FilmesAPI.Data.Filme_Dtos;
 using Microsoft.AspNetCore.Mvc;
@@ -15,29 +16,41 @@ namespace FilmesAPI.Controllers
     [Route("[controller]")]
     public class FilmeController : ControllerBase
     {
-        private ProjetoContext _context;
-        private IMapper _mapper;
+        private FilmeService _filmeService;
 
-        public FilmeController(ProjetoContext context, IMapper mapper)
+        public FilmeController(FilmeService filmeService)
         {
-            _context = context;
-            _mapper = mapper;
+            _filmeService = filmeService
         }
   
-
         [HttpPost("InsereFilme")]
         public IActionResult AdicionaFilme([FromBody] CreateFilmeDto filmeDto)
         {
-            Filme filme = _mapper.Map<Filme>(filmeDto);
-            _context.Filmes.Add(filme);
-            _context.SaveChanges();
+            
             return CreatedAtAction(nameof(RecuperaFilmesPorId), new { Id = filme.Id }, filme);
         }
 
         [HttpGet("RecuperaTodosFilmes")]
-        public IEnumerable<Filme> RecuperaFilmes()
+        public IActionResult RecuperaFilmes([FromQuery] int? faixaEtaria = null)
         {
-            return _context.Filmes;
+            List<Filme> filmes;
+            if(faixaEtaria == null)
+            {
+                filmes = _context.Filmes.ToList();
+            }
+            else
+            {
+                filmes = _context
+                    .Filmes
+                    .Where(filme => filme.FaixaEtaria <= faixaEtaria)
+                    .ToList();
+            }
+            if (filmes != null  )
+            {
+                var readFilmeDto = _mapper.Map<List<ReadFilmeDto>>(filmes);
+                return Ok(readFilmeDto);
+            }
+            return NotFound();
         }
 
         [HttpGet("RecuperaFilmePor{id}")]
