@@ -1,0 +1,322 @@
+2022-03-24T19:12:34.692211Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2022-03-24T19:12:34.692278Z 0 [Warning] 'NO_ZERO_DATE', 'NO_ZERO_IN_DATE' and 'ERROR_FOR_DIVISION_BY_ZERO' sql modes should be used with strict mode. They will be merged with strict mode in a future release.
+2022-03-24T19:12:34.694478Z 0 [Note] C:\Program Files\MySQL\MySQL Server 5.7\bin\mysqld.exe (mysqld 5.7.37-log) starting as process 16876 ...
+2022-03-24T19:12:34.706015Z 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2022-03-24T19:12:34.707290Z 0 [Note] InnoDB: Uses event mutexes
+2022-03-24T19:12:34.707722Z 0 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2022-03-24T19:12:34.708360Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2022-03-24T19:12:34.708882Z 0 [Note] InnoDB: Adjusting innodb_buffer_pool_instances from 8 to 1 since innodb_buffer_pool_size is less than 1024 MiB
+2022-03-24T19:12:34.710083Z 0 [Note] InnoDB: Number of pools: 1
+2022-03-24T19:12:34.710713Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2022-03-24T19:12:34.716256Z 0 [Note] InnoDB: Initializing buffer pool, total size = 8M, instances = 1, chunk size = 8M
+2022-03-24T19:12:34.718096Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2022-03-24T19:12:34.741288Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2022-03-24T19:12:34.781937Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2022-03-24T19:12:34.782895Z 0 [Note] InnoDB: Setting file '.\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2022-03-24T19:12:34.796619Z 0 [Note] InnoDB: File '.\ibtmp1' size is now 12 MB.
+2022-03-24T19:12:34.803671Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2022-03-24T19:12:34.804587Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2022-03-24T19:12:34.805588Z 0 [Note] InnoDB: Waiting for purge to start
+2022-03-24T19:12:34.871765Z 0 [Note] InnoDB: 5.7.37 started; log sequence number 2750654
+2022-03-24T19:12:34.876653Z 0 [Note] InnoDB: Loading buffer pool(s) from C:\ProgramData\MySQL\MySQL Server 5.7\Data\ib_buffer_pool
+2022-03-24T19:12:34.877131Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2022-03-24T19:12:34.900983Z 0 [Note] InnoDB: Buffer pool(s) load completed at 220324 16:12:34
+2022-03-24T19:12:34.904715Z 0 [Note] Found ca.pem, server-cert.pem and server-key.pem in data directory. Trying to enable SSL support using them.
+2022-03-24T19:12:34.906061Z 0 [Note] Skipping generation of SSL certificates as certificate files are present in data directory.
+2022-03-24T19:12:34.907178Z 0 [Warning] A deprecated TLS version TLSv1 is enabled. Please use TLSv1.2 or higher.
+2022-03-24T19:12:34.908060Z 0 [Warning] A deprecated TLS version TLSv1.1 is enabled. Please use TLSv1.2 or higher.
+2022-03-24T19:12:34.910414Z 0 [Warning] CA certificate ca.pem is self signed.
+2022-03-24T19:12:34.911292Z 0 [Note] Skipping generation of RSA key pair as key files are present in data directory.
+2022-03-24T19:12:34.912410Z 0 [Note] Server hostname (bind-address): '*'; port: 3306
+2022-03-24T19:12:34.913183Z 0 [Note] IPv6 is available.
+2022-03-24T19:12:34.913620Z 0 [Note]   - '::' resolves to '::';
+2022-03-24T19:12:34.914151Z 0 [Note] Server socket created on IP: '::'.
+2022-03-24T19:12:34.942470Z 0 [Note] Failed to start slave threads for channel ''
+2022-03-24T19:12:34.955257Z 0 [Note] Event Scheduler: Loaded 0 events
+2022-03-24T19:12:34.955909Z 0 [Note] C:\Program Files\MySQL\MySQL Server 5.7\bin\mysqld.exe: ready for connections.
+Version: '5.7.37-log'  socket: ''  port: 3306  MySQL Community Server (GPL)
+2022-03-24T19:12:36.126276Z 4 [Note] Access denied for user 'root'@'localhost' (using password: NO)
+2022-03-24T19:14:04.755465Z 12 [Note] Access denied for user 'root'@'localhost' (using password: NO)
+2022-03-24T19:14:07.125645Z 13 [Note] Access denied for user 'root'@'localhost' (using password: NO)
+2022-03-24T19:18:29.862030Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 27539ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-03-24T22:54:04.427790Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 10799671ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-03-25T12:30:37.043369Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 48989567ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-03-25T16:49:34.369470Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 1047647ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-03-25T18:39:19.498465Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 226132ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-03-25T19:15:19.327309Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 34557ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-03-25T23:18:48.302836Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 10800017ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-03-26T02:18:52.379947Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 10800725ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-03-28T12:06:57.455069Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 208077999ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-03-28T17:46:17.772441Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2022-03-28T17:46:17.779239Z 0 [Warning] 'NO_ZERO_DATE', 'NO_ZERO_IN_DATE' and 'ERROR_FOR_DIVISION_BY_ZERO' sql modes should be used with strict mode. They will be merged with strict mode in a future release.
+2022-03-28T17:46:17.815499Z 0 [Note] C:\Program Files\MySQL\MySQL Server 5.7\bin\mysqld.exe (mysqld 5.7.37-log) starting as process 4340 ...
+2022-03-28T17:46:17.847788Z 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2022-03-28T17:46:17.848742Z 0 [Note] InnoDB: Uses event mutexes
+2022-03-28T17:46:17.849490Z 0 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2022-03-28T17:46:17.850495Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2022-03-28T17:46:17.873110Z 0 [Note] InnoDB: Adjusting innodb_buffer_pool_instances from 8 to 1 since innodb_buffer_pool_size is less than 1024 MiB
+2022-03-28T17:46:17.877313Z 0 [Note] InnoDB: Number of pools: 1
+2022-03-28T17:46:17.902432Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2022-03-28T17:46:17.909859Z 0 [Note] InnoDB: Initializing buffer pool, total size = 8M, instances = 1, chunk size = 8M
+2022-03-28T17:46:17.926250Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2022-03-28T17:46:18.001378Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2022-03-28T17:46:18.004707Z 0 [Note] InnoDB: Log scan progressed past the checkpoint lsn 10898983
+2022-03-28T17:46:18.005795Z 0 [Note] InnoDB: Doing recovery: scanned up to log sequence number 10898992
+2022-03-28T17:46:18.007177Z 0 [Note] InnoDB: Database was not shutdown normally!
+2022-03-28T17:46:18.008015Z 0 [Note] InnoDB: Starting crash recovery.
+2022-03-28T17:46:18.397865Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2022-03-28T17:46:18.398900Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2022-03-28T17:46:18.400330Z 0 [Note] InnoDB: Setting file '.\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2022-03-28T17:46:18.421394Z 0 [Note] InnoDB: File '.\ibtmp1' size is now 12 MB.
+2022-03-28T17:46:18.430734Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2022-03-28T17:46:18.431986Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2022-03-28T17:46:18.433341Z 0 [Note] InnoDB: Waiting for purge to start
+2022-03-28T17:46:18.506429Z 0 [Note] InnoDB: 5.7.37 started; log sequence number 10898992
+2022-03-28T17:46:18.509382Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2022-03-28T17:46:18.519222Z 0 [Note] InnoDB: Loading buffer pool(s) from C:\ProgramData\MySQL\MySQL Server 5.7\Data\ib_buffer_pool
+2022-03-28T17:46:18.544257Z 0 [Note] Found ca.pem, server-cert.pem and server-key.pem in data directory. Trying to enable SSL support using them.
+2022-03-28T17:46:18.545624Z 0 [Note] Skipping generation of SSL certificates as certificate files are present in data directory.
+2022-03-28T17:46:18.560433Z 0 [Warning] A deprecated TLS version TLSv1 is enabled. Please use TLSv1.2 or higher.
+2022-03-28T17:46:18.561695Z 0 [Warning] A deprecated TLS version TLSv1.1 is enabled. Please use TLSv1.2 or higher.
+2022-03-28T17:46:18.569744Z 0 [Note] InnoDB: Buffer pool(s) load completed at 220328 14:46:18
+2022-03-28T17:46:18.589150Z 0 [Warning] CA certificate ca.pem is self signed.
+2022-03-28T17:46:18.603262Z 0 [Note] Skipping generation of RSA key pair as key files are present in data directory.
+2022-03-28T17:46:18.605175Z 0 [Note] Server hostname (bind-address): '*'; port: 3306
+2022-03-28T17:46:18.606331Z 0 [Note] IPv6 is available.
+2022-03-28T17:46:18.607190Z 0 [Note]   - '::' resolves to '::';
+2022-03-28T17:46:18.608004Z 0 [Note] Server socket created on IP: '::'.
+2022-03-28T17:46:18.655066Z 0 [Note] Failed to start slave threads for channel ''
+2022-03-28T17:46:18.786050Z 0 [Note] Event Scheduler: Loaded 0 events
+2022-03-28T17:46:18.787498Z 0 [Note] C:\Program Files\MySQL\MySQL Server 5.7\bin\mysqld.exe: ready for connections.
+Version: '5.7.37-log'  socket: ''  port: 3306  MySQL Community Server (GPL)
+2022-03-28T17:55:21.650282Z 2 [Note] Access denied for user 'root'@'localhost' (using password: NO)
+2022-03-28T18:41:39.833768Z 7 [Note] Access denied for user 'root'@'localhost' (using password: NO)
+2022-03-28T19:01:12.580028Z 28 [Warning] InnoDB: Cannot open table filmedb/cinema from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2022-03-28T19:01:12.584414Z 28 [Warning] InnoDB: Cannot open table filmedb/cinema from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2022-03-28T19:01:12.589352Z 28 [Warning] InnoDB: Cannot open table filmedb/cinema from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2022-03-28T19:01:12.683077Z 29 [Warning] InnoDB: Cannot open table filmedb/__efmigrationshistory from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2022-03-28T19:01:12.686041Z 29 [Warning] InnoDB: Cannot open table filmedb/__efmigrationshistory from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2022-03-28T19:01:12.690604Z 29 [Warning] InnoDB: Cannot open table filmedb/__efmigrationshistory from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2022-03-28T19:01:12.778999Z 30 [Warning] InnoDB: Cannot open table filmedb/sessoes from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2022-03-28T19:01:12.781912Z 30 [Warning] InnoDB: Cannot open table filmedb/sessoes from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2022-03-28T19:01:12.786559Z 30 [Warning] InnoDB: Cannot open table filmedb/sessoes from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2022-03-28T19:01:12.875741Z 31 [Warning] InnoDB: Cannot open table filmedb/gerente from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2022-03-28T19:01:12.879030Z 31 [Warning] InnoDB: Cannot open table filmedb/gerente from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2022-03-28T19:01:12.884207Z 31 [Warning] InnoDB: Cannot open table filmedb/gerente from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2022-03-28T19:01:12.977918Z 32 [Warning] InnoDB: Cannot open table filmedb/filmes from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2022-03-28T19:01:12.980775Z 32 [Warning] InnoDB: Cannot open table filmedb/filmes from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2022-03-28T19:01:12.984922Z 32 [Warning] InnoDB: Cannot open table filmedb/filmes from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2022-03-28T19:01:13.073953Z 33 [Warning] InnoDB: Cannot open table filmedb/endereco from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2022-03-28T19:01:13.077020Z 33 [Warning] InnoDB: Cannot open table filmedb/endereco from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2022-03-28T19:01:13.081305Z 33 [Warning] InnoDB: Cannot open table filmedb/endereco from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2022-03-28T19:04:27.560749Z 21 [Note] Aborted connection 21 to db: 'unconnected' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2022-03-28T19:09:57.241762Z 0 [Note] C:\Program Files\MySQL\MySQL Server 5.7\bin\mysqld.exe: Normal shutdown
+
+2022-03-28T19:09:57.242776Z 0 [Note] Giving 4 client threads a chance to die gracefully
+2022-03-28T19:09:57.243444Z 0 [Note] Shutting down slave threads
+2022-03-28T19:09:59.247492Z 0 [Note] Forcefully disconnecting 4 remaining clients
+2022-03-28T19:09:59.249947Z 0 [Warning] C:\Program Files\MySQL\MySQL Server 5.7\bin\mysqld.exe: Forcing close of thread 66  user: 'root'
+
+2022-03-28T19:09:59.251520Z 0 [Warning] C:\Program Files\MySQL\MySQL Server 5.7\bin\mysqld.exe: Forcing close of thread 61  user: 'root'
+
+2022-03-28T19:09:59.252401Z 0 [Warning] C:\Program Files\MySQL\MySQL Server 5.7\bin\mysqld.exe: Forcing close of thread 60  user: 'root'
+
+2022-03-28T19:09:59.253275Z 0 [Warning] C:\Program Files\MySQL\MySQL Server 5.7\bin\mysqld.exe: Forcing close of thread 67  user: 'root'
+
+2022-03-28T19:09:59.254134Z 0 [Note] Event Scheduler: Purging the queue. 0 events
+2022-03-28T19:09:59.260908Z 0 [Note] Binlog end
+2022-03-28T19:09:59.265666Z 0 [Note] Shutting down plugin 'ngram'
+2022-03-28T19:09:59.266541Z 0 [Note] Shutting down plugin 'partition'
+2022-03-28T19:09:59.266993Z 0 [Note] Shutting down plugin 'BLACKHOLE'
+2022-03-28T19:09:59.267416Z 0 [Note] Shutting down plugin 'ARCHIVE'
+2022-03-28T19:09:59.267827Z 0 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2022-03-28T19:09:59.268344Z 0 [Note] Shutting down plugin 'MRG_MYISAM'
+2022-03-28T19:09:59.269213Z 0 [Note] Shutting down plugin 'MyISAM'
+2022-03-28T19:09:59.269864Z 0 [Note] Shutting down plugin 'INNODB_SYS_VIRTUAL'
+2022-03-28T19:09:59.270338Z 0 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2022-03-28T19:09:59.270816Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2022-03-28T19:09:59.271305Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2022-03-28T19:09:59.271800Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2022-03-28T19:09:59.272266Z 0 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2022-03-28T19:09:59.272730Z 0 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2022-03-28T19:09:59.273198Z 0 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2022-03-28T19:09:59.273664Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2022-03-28T19:09:59.274147Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2022-03-28T19:09:59.274607Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2022-03-28T19:09:59.275090Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2022-03-28T19:09:59.275636Z 0 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2022-03-28T19:09:59.276183Z 0 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2022-03-28T19:09:59.276683Z 0 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2022-03-28T19:09:59.277145Z 0 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2022-03-28T19:09:59.277658Z 0 [Note] Shutting down plugin 'INNODB_METRICS'
+2022-03-28T19:09:59.278086Z 0 [Note] Shutting down plugin 'INNODB_TEMP_TABLE_INFO'
+2022-03-28T19:09:59.278534Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2022-03-28T19:09:59.278994Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2022-03-28T19:09:59.279443Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2022-03-28T19:09:59.279870Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2022-03-28T19:09:59.280340Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2022-03-28T19:09:59.280817Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2022-03-28T19:09:59.281275Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2022-03-28T19:09:59.281681Z 0 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2022-03-28T19:09:59.282106Z 0 [Note] Shutting down plugin 'INNODB_CMP'
+2022-03-28T19:09:59.282495Z 0 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2022-03-28T19:09:59.282916Z 0 [Note] Shutting down plugin 'INNODB_LOCKS'
+2022-03-28T19:09:59.283310Z 0 [Note] Shutting down plugin 'INNODB_TRX'
+2022-03-28T19:09:59.283695Z 0 [Note] Shutting down plugin 'InnoDB'
+2022-03-28T19:09:59.294488Z 0 [Note] InnoDB: FTS optimize thread exiting.
+2022-03-28T19:09:59.295022Z 0 [Note] InnoDB: Starting shutdown...
+2022-03-28T19:09:59.410666Z 0 [Note] InnoDB: Dumping buffer pool(s) to C:\ProgramData\MySQL\MySQL Server 5.7\Data\ib_buffer_pool
+2022-03-28T19:09:59.420784Z 0 [Note] InnoDB: Buffer pool(s) dump completed at 220328 16:09:59
+2022-03-28T19:10:00.559606Z 0 [Note] InnoDB: Shutdown completed; log sequence number 10899020
+2022-03-28T19:10:00.560393Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2022-03-28T19:10:00.560907Z 0 [Note] Shutting down plugin 'MEMORY'
+2022-03-28T19:10:00.561271Z 0 [Note] Shutting down plugin 'CSV'
+2022-03-28T19:10:00.561620Z 0 [Note] Shutting down plugin 'sha256_password'
+2022-03-28T19:10:00.562030Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2022-03-28T19:10:00.562575Z 0 [Note] Shutting down plugin 'binlog'
+2022-03-28T19:10:00.565438Z 0 [Note] C:\Program Files\MySQL\MySQL Server 5.7\bin\mysqld.exe: Shutdown complete
+
+2022-03-28T19:10:04.159183Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2022-03-28T19:10:04.159247Z 0 [Warning] 'NO_ZERO_DATE', 'NO_ZERO_IN_DATE' and 'ERROR_FOR_DIVISION_BY_ZERO' sql modes should be used with strict mode. They will be merged with strict mode in a future release.
+2022-03-28T19:10:04.161172Z 0 [Note] C:\Program Files\MySQL\MySQL Server 5.7\bin\mysqld.exe (mysqld 5.7.37-log) starting as process 15112 ...
+2022-03-28T19:10:04.178241Z 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2022-03-28T19:10:04.178982Z 0 [Note] InnoDB: Uses event mutexes
+2022-03-28T19:10:04.179440Z 0 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2022-03-28T19:10:04.180099Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2022-03-28T19:10:04.180639Z 0 [Note] InnoDB: Adjusting innodb_buffer_pool_instances from 8 to 1 since innodb_buffer_pool_size is less than 1024 MiB
+2022-03-28T19:10:04.181883Z 0 [Note] InnoDB: Number of pools: 1
+2022-03-28T19:10:04.182463Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2022-03-28T19:10:04.185978Z 0 [Note] InnoDB: Initializing buffer pool, total size = 8M, instances = 1, chunk size = 8M
+2022-03-28T19:10:04.188157Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2022-03-28T19:10:04.232898Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2022-03-28T19:10:04.558510Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2022-03-28T19:10:04.559531Z 0 [Note] InnoDB: Setting file '.\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2022-03-28T19:10:04.573254Z 0 [Note] InnoDB: File '.\ibtmp1' size is now 12 MB.
+2022-03-28T19:10:04.579384Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2022-03-28T19:10:04.580242Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2022-03-28T19:10:04.581139Z 0 [Note] InnoDB: Waiting for purge to start
+2022-03-28T19:10:04.633345Z 0 [Note] InnoDB: 5.7.37 started; log sequence number 10899020
+2022-03-28T19:10:04.634349Z 0 [Note] InnoDB: Loading buffer pool(s) from C:\ProgramData\MySQL\MySQL Server 5.7\Data\ib_buffer_pool
+2022-03-28T19:10:04.634613Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2022-03-28T19:10:04.654996Z 0 [Note] Found ca.pem, server-cert.pem and server-key.pem in data directory. Trying to enable SSL support using them.
+2022-03-28T19:10:04.655052Z 0 [Note] InnoDB: Buffer pool(s) load completed at 220328 16:10:04
+2022-03-28T19:10:04.655966Z 0 [Note] Skipping generation of SSL certificates as certificate files are present in data directory.
+2022-03-28T19:10:04.657201Z 0 [Warning] A deprecated TLS version TLSv1 is enabled. Please use TLSv1.2 or higher.
+2022-03-28T19:10:04.657917Z 0 [Warning] A deprecated TLS version TLSv1.1 is enabled. Please use TLSv1.2 or higher.
+2022-03-28T19:10:04.664483Z 0 [Warning] CA certificate ca.pem is self signed.
+2022-03-28T19:10:04.665254Z 0 [Note] Skipping generation of RSA key pair as key files are present in data directory.
+2022-03-28T19:10:04.670189Z 0 [Note] Server hostname (bind-address): '*'; port: 3306
+2022-03-28T19:10:04.671273Z 0 [Note] IPv6 is available.
+2022-03-28T19:10:04.671997Z 0 [Note]   - '::' resolves to '::';
+2022-03-28T19:10:04.672537Z 0 [Note] Server socket created on IP: '::'.
+2022-03-28T19:10:04.808210Z 0 [Note] Failed to start slave threads for channel ''
+2022-03-28T19:10:05.335377Z 0 [Note] Event Scheduler: Loaded 0 events
+2022-03-28T19:10:05.336089Z 0 [Note] C:\Program Files\MySQL\MySQL Server 5.7\bin\mysqld.exe: ready for connections.
+Version: '5.7.37-log'  socket: ''  port: 3306  MySQL Community Server (GPL)
+2022-03-28T19:13:18.090074Z 3 [Warning] InnoDB: Cannot open table filmedb/__efmigrationshistory from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2022-03-28T19:13:35.805669Z 3 [Warning] InnoDB: Cannot open table filmedb/__efmigrationshistory from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2022-03-28T20:03:22.679325Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 22918ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-03-28T23:40:35.471285Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 10800362ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-03-29T12:16:11.053382Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 45333571ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-03-29T14:18:29.035744Z 7 [Warning] InnoDB: Cannot open table filmedb/endereco from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2022-03-29T14:18:46.941711Z 7 [Note] Aborted connection 7 to db: 'filmedb' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2022-03-29T14:19:28.736059Z 9 [Warning] InnoDB: Cannot open table filmedb/__efmigrationshistory from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2022-03-29T14:32:32.360469Z 11 [ERROR] InnoDB: Table `filmedb`.`cinema` does not exist in the InnoDB internal data dictionary though MySQL is trying to drop it. Have you copied the .frm file of the table to the MySQL database directory from another database? Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2022-03-29T14:32:32.365201Z 11 [ERROR] InnoDB: Table `filmedb`.`endereco` does not exist in the InnoDB internal data dictionary though MySQL is trying to drop it. Have you copied the .frm file of the table to the MySQL database directory from another database? Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2022-03-29T14:32:32.368825Z 11 [ERROR] InnoDB: Table `filmedb`.`filmes` does not exist in the InnoDB internal data dictionary though MySQL is trying to drop it. Have you copied the .frm file of the table to the MySQL database directory from another database? Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2022-03-29T14:32:32.371267Z 11 [ERROR] InnoDB: Table `filmedb`.`gerente` does not exist in the InnoDB internal data dictionary though MySQL is trying to drop it. Have you copied the .frm file of the table to the MySQL database directory from another database? Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2022-03-29T14:32:32.373611Z 11 [ERROR] InnoDB: Table `filmedb`.`sessoes` does not exist in the InnoDB internal data dictionary though MySQL is trying to drop it. Have you copied the .frm file of the table to the MySQL database directory from another database? Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2022-03-29T14:32:32.375946Z 11 [ERROR] InnoDB: Table `filmedb`.`__efmigrationshistory` does not exist in the InnoDB internal data dictionary though MySQL is trying to drop it. Have you copied the .frm file of the table to the MySQL database directory from another database? Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2022-03-29T14:33:42.737135Z 13 [ERROR] InnoDB: Operating system error number 80 in a file operation.
+2022-03-29T14:33:42.738140Z 13 [Note] InnoDB: Some operating system error numbers are described at http://dev.mysql.com/doc/refman/5.7/en/operating-system-error-codes.html
+2022-03-29T14:33:42.739909Z 13 [ERROR] InnoDB: Cannot create file '.\filmedb\__efmigrationshistory.ibd'
+2022-03-29T14:33:42.740968Z 13 [ERROR] InnoDB: The file '.\filmedb\__efmigrationshistory.ibd' already exists though the corresponding table did not exist in the InnoDB data dictionary. Have you moved InnoDB .ibd files around without using the SQL commands DISCARD TABLESPACE and IMPORT TABLESPACE, or did mysqld crash in the middle of CREATE TABLE? You can resolve the problem by removing the file '.\filmedb\__efmigrationshistory.ibd' under the 'datadir' of MySQL.
+2022-03-29T14:42:37.294890Z 17 [Note] Aborted connection 17 to db: 'filmedb' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2022-03-29T19:36:33.321867Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 7433ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-03-29T21:52:19.658402Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 5885902ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-03-29T23:27:18.784209Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 2639988ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-03-30T02:47:47.611817Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 10800005ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-03-30T12:43:11.163035Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 35720159ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-03-31T00:02:34.347247Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 10797945ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-03-31T12:50:52.000978Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 46094393ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-03-31T17:00:49.358005Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 1741951ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-03-31T18:35:24.294974Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 42528ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-03-31T20:46:11.334530Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 5712005ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-03-31T22:22:54.674572Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 1815034ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-03-31T23:44:10.832625Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 256953ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-04-01T03:19:40.290511Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 10800017ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-04-01T13:09:43.439458Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 35399361ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-04-01T17:03:05.134586Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 9131042ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-04-01T17:26:48.366088Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 1391300ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-04-01T17:35:14.752259Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 179722ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-04-01T18:06:47.350262Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 945097ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-04-01T19:26:25.942494Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 4699976ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-04-01T19:37:07.356205Z 18 [Note] Aborted connection 18 to db: 'filmedb' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2022-04-01T20:41:45.258206Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 5031ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-04-02T21:29:37.346213Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 88760723ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-04-04T09:32:41.624665Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2022-04-04T09:32:41.629247Z 0 [Warning] 'NO_ZERO_DATE', 'NO_ZERO_IN_DATE' and 'ERROR_FOR_DIVISION_BY_ZERO' sql modes should be used with strict mode. They will be merged with strict mode in a future release.
+2022-04-04T09:32:41.636142Z 0 [Note] C:\Program Files\MySQL\MySQL Server 5.7\bin\mysqld.exe (mysqld 5.7.37-log) starting as process 4320 ...
+2022-04-04T09:32:41.692384Z 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2022-04-04T09:32:41.693547Z 0 [Note] InnoDB: Uses event mutexes
+2022-04-04T09:32:41.694506Z 0 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2022-04-04T09:32:41.699979Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2022-04-04T09:32:41.700903Z 0 [Note] InnoDB: Adjusting innodb_buffer_pool_instances from 8 to 1 since innodb_buffer_pool_size is less than 1024 MiB
+2022-04-04T09:32:41.705453Z 0 [Note] InnoDB: Number of pools: 1
+2022-04-04T09:32:41.712630Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2022-04-04T09:32:41.723160Z 0 [Note] InnoDB: Initializing buffer pool, total size = 8M, instances = 1, chunk size = 8M
+2022-04-04T09:32:41.726511Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2022-04-04T09:32:41.786947Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2022-04-04T09:32:41.789323Z 0 [Note] InnoDB: Log scan progressed past the checkpoint lsn 10960959
+2022-04-04T09:32:41.798431Z 0 [Note] InnoDB: Doing recovery: scanned up to log sequence number 10960968
+2022-04-04T09:32:41.799906Z 0 [Note] InnoDB: Database was not shutdown normally!
+2022-04-04T09:32:41.800866Z 0 [Note] InnoDB: Starting crash recovery.
+2022-04-04T09:32:42.169958Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2022-04-04T09:32:42.170923Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2022-04-04T09:32:42.173079Z 0 [Note] InnoDB: Setting file '.\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2022-04-04T09:32:42.223405Z 0 [Note] InnoDB: File '.\ibtmp1' size is now 12 MB.
+2022-04-04T09:32:42.226662Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2022-04-04T09:32:42.227954Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2022-04-04T09:32:42.229270Z 0 [Note] InnoDB: Waiting for purge to start
+2022-04-04T09:32:42.312548Z 0 [Note] InnoDB: 5.7.37 started; log sequence number 10960968
+2022-04-04T09:32:42.314125Z 0 [Note] InnoDB: Loading buffer pool(s) from C:\ProgramData\MySQL\MySQL Server 5.7\Data\ib_buffer_pool
+2022-04-04T09:32:42.314770Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2022-04-04T09:32:42.341784Z 0 [Note] InnoDB: Buffer pool(s) load completed at 220404  6:32:42
+2022-04-04T09:32:42.364564Z 0 [Note] Found ca.pem, server-cert.pem and server-key.pem in data directory. Trying to enable SSL support using them.
+2022-04-04T09:32:42.365874Z 0 [Note] Skipping generation of SSL certificates as certificate files are present in data directory.
+2022-04-04T09:32:42.367037Z 0 [Warning] A deprecated TLS version TLSv1 is enabled. Please use TLSv1.2 or higher.
+2022-04-04T09:32:42.368096Z 0 [Warning] A deprecated TLS version TLSv1.1 is enabled. Please use TLSv1.2 or higher.
+2022-04-04T09:32:42.384471Z 0 [Warning] CA certificate ca.pem is self signed.
+2022-04-04T09:32:42.388448Z 0 [Note] Skipping generation of RSA key pair as key files are present in data directory.
+2022-04-04T09:32:42.390402Z 0 [Note] Server hostname (bind-address): '*'; port: 3306
+2022-04-04T09:32:42.391553Z 0 [Note] IPv6 is available.
+2022-04-04T09:32:42.392243Z 0 [Note]   - '::' resolves to '::';
+2022-04-04T09:32:42.411426Z 0 [Note] Server socket created on IP: '::'.
+2022-04-04T09:32:42.462685Z 0 [Note] Failed to start slave threads for channel ''
+2022-04-04T09:32:42.549833Z 0 [Note] Event Scheduler: Loaded 0 events
+2022-04-04T09:32:42.551782Z 0 [Note] C:\Program Files\MySQL\MySQL Server 5.7\bin\mysqld.exe: ready for connections.
+Version: '5.7.37-log'  socket: ''  port: 3306  MySQL Community Server (GPL)
+2022-04-04T12:24:00.795641Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 8454918ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-04-04T17:33:10.457409Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 309524ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-04-04T19:30:36.365019Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 4737097ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-04-04T22:31:59.428295Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 10798441ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-04-05T13:11:55.812149Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 52793359ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-04-05T17:25:41.980800Z 4 [Note] Aborted connection 4 to db: 'filmedb' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2022-04-05T17:46:52.216058Z 5 [Note] Aborted connection 5 to db: 'filmedb' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2022-04-05T18:44:07.251456Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 5552ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-04-05T18:45:57.731912Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 90731ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-04-05T19:31:42.490447Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 612982ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-04-05T20:53:13.124676Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 2732005ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-04-06T00:28:41.854302Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 10800008ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-04-06T12:53:27.168082Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 44682307ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-04-06T15:22:29.331269Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 6786782ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-04-06T16:49:21.043779Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 3353167ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-04-06T18:06:28.102135Z 6 [Note] Aborted connection 6 to db: 'filmedb' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2022-04-06T18:14:42.555581Z 7 [Note] Aborted connection 7 to db: 'filmedb' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2022-04-06T21:30:45.030221Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 10799213ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-04-07T12:58:15.331214Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 55645233ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-04-07T13:24:19.591714Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 41753ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-04-07T13:37:29.488995Z 8 [Note] Aborted connection 8 to db: 'filmedb' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2022-04-07T13:40:53.059143Z 9 [Note] Aborted connection 9 to db: 'filmedb' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2022-04-07T13:47:49.104491Z 11 [Note] Aborted connection 11 to db: 'filmedb' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2022-04-07T13:50:35.413271Z 12 [Note] Aborted connection 12 to db: 'filmedb' user: 'root' host: 'localhost' (Got an error reading communication packets)
