@@ -9,8 +9,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace FilmesApi.Migrations
 {
     [DbContext(typeof(ProjetoContext))]
-    [Migration("20220311172234_Atualizando DB")]
-    partial class AtualizandoDB
+    [Migration("20220329143746_RecriandoDB")]
+    partial class RecriandoDB
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

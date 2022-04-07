@@ -14,5 +14,6 @@ namespace FilmesAPI.Data.Cinema_Dtos
         public int EnderecoId { get; set; }
         [Required]
         public int GerenteId { get; set; }
+        
     }
 }
