@@ -16,6 +16,6 @@ namespace FilmesApi.Models
         public string Bairro { get; set; }
         public int Numero { get; set; }
         [JsonIgnore]
-        public virtual Cinema Cinema { get; set; }//Relação 1:1 - abstração(não irá criar uma nova coluna na tabela, mas dirá ao entity que essa entidade tem relação com outra entidade)
+        public virtual Cinema Cinema { get; set; }
     }
 }
