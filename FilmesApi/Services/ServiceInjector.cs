@@ -9,7 +9,7 @@ namespace FilmesApi.Services
         /// Container para cadastro de serviços
         /// </summary>
         /// <param name="services"></param>
-        public static void RegisterServices(IServiceCollection services)
+        public static void ContainerServices(IServiceCollection services)
         {
             services.AddScoped<FilmeService, FilmeService>();
             services.AddScoped<CinemaService, CinemaService>();

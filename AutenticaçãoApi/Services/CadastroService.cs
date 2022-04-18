@@ -11,13 +11,11 @@ namespace AutenticaçãoApi.Services
 {
     public class CadastroService
     {
-        private UserDbContext _context;
         private IMapper _mapper;
         private UserManager<IdentityUser<int>> _manager;
 
-        public CadastroService(UserDbContext context, IMapper mapper, UserManager<IdentityUser<int>> manager)
+        public CadastroService(IMapper mapper, UserManager<IdentityUser<int>> manager)
         {
-            _context = context;
             _mapper = mapper;
             _manager = manager;
         }

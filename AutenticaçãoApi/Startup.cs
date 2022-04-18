@@ -1,4 +1,5 @@
 using AutenticaçãoApi.Data;
+using AutenticaçãoApi.Models;
 using AutenticaçãoApi.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -24,8 +25,9 @@ namespace AutenticaçãoApi
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            //services.Configure<IdentityOptions>(opts => opts...) <= implementar
-            services.AddScoped<CadastroService, CadastroService>();
+            //SERVIÇO PARA CONFIGURAR ALGUMAS REGRAS DE INPUT DE SENHA 
+            //services.Configure<IdentityOptions>(opts => opts...) <= implementar 
+            ServiceInjector.ContainerService(services);
             services.AddControllers();
             services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
             services.AddDbContext<UserDbContext>(options => 
