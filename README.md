@@ -11,5 +11,3 @@ Padrões:
 DataBase:
 - MySQL
 - ORM: Entity Framework
-- Diretório default para inserir a pasta 'data' que foi usada no projeto:
-C:\ProgramData\MySQL\MySQL Server 5.7
